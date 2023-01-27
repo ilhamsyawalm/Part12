@@ -7,8 +7,28 @@
 </head>
 
 <body>
-
-
+    <h1>Color Picker</h1>
+    <main>
+        <div class="warna">
+            <div class="kotak merah">Red</div>
+            <div class="kotak hijau">Green</div>
+            <div class="kotak biru">Blue</div>
+        </div>
+        <div class="inputan">
+            <input type="range" name="rMerah" min="0" max="255" value="255">
+            <input type="range" name="rHijau" min="0" max="255" value="255">
+            <input type="range" name="rBiru" min="0" max="255" value="255">
+        </div>
+        <div class="info">
+            <div class="persegiPanjang">
+                <p>rgb(<span id="nilaiMerah">255</span>, <span id="nilaiHijau">255</span>, <span
+                        id="nilaiBiru">255</span>)</p>
+            </div>
+        </div>
+        <div class="interaktif">
+            <button type="button" id="putih">White Color</button>
+        </div>
+    </main>
 
 
     <script src="script.js"></script>

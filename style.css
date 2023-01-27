@@ -1,0 +1,115 @@
+html {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  font-size: 60px;
+  color: blue;
+  text-shadow: 0 0 3px black;
+  animation: warnaWarni 10s ease infinite alternate;
+}
+
+main {
+  background: url(./gambar/Pattern.png);
+  width: 65%;
+  margin: auto;
+  border: 1px solid black;
+  border-radius: 30px;
+  box-shadow: 0 0 5px 5px black;
+  display: grid;
+  grid-template-areas: "warna inputan info interaktif";
+}
+
+.warna {
+  grid-area: warna;
+  display: flex;
+  flex-direction: column;
+  margin-left: -40px;
+}
+
+.kotak {
+  height: 80px;
+  width: 80px;
+  border: 1px solid black;
+  margin: 20px auto;
+  line-height: 80px;
+  text-align: center;
+  border-radius: 50%;
+  color: white;
+}
+
+.merah {
+  background-color: rgb(255, 0, 0);
+}
+
+.hijau {
+  background-color: rgb(0, 255, 0);
+}
+
+.biru {
+  background-color: rgb(0, 0, 255);
+}
+
+.inputan {
+  grid-area: inputan;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin-left: -60px;
+}
+
+input {
+  padding: 50px 0;
+}
+
+.info {
+  grid-area: info;
+  margin: 140px 0 auto -40px;
+}
+
+.persegiPanjang {
+  background-color: white;
+  width: 150px;
+  height: 50px;
+  text-align: center;
+  line-height: 22px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.interaktif {
+  grid-area: interaktif;
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  width: 70%;
+  height: 40px;
+  margin: 70px 0;
+}
+
+@keyframes warnaWarni {
+  0% {
+    filter: hue-rotate(0deg);
+  }
+
+  25% {
+    filter: hue-rotate(90deg);
+  }
+
+  50% {
+    filter: hue-rotate(180deg);
+  }
+
+  75% {
+    filter: hue-rotate(270deg);
+  }
+
+  100% {
+    filter: hue-rotate(360deg);
+  }
+}
