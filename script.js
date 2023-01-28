@@ -28,6 +28,8 @@ range.forEach(function (pil) {
 const whiteColor = document.getElementById("putih");
 
 whiteColor.addEventListener("click", function () {
+  // window.location.reload();   Optional
+
   document.body.style.backgroundColor = "rgb(255, 255, 255)";
 
   nilaiMerah.innerHTML = "255";
