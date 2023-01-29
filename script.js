@@ -7,7 +7,7 @@ const nilaiBiru = document.getElementById("nilaiBiru");
 const rMerah = document.querySelector("input[name=rMerah]");
 const rHijau = document.querySelector("input[name=rHijau]");
 const rBiru = document.querySelector("input[name=rBiru]");
-const range = document.querySelectorAll("main .inputan");
+const range = document.querySelectorAll(".inputan");
 
 range.forEach(function (pil) {
   pil.addEventListener("input", function () {
