@@ -21,6 +21,10 @@ range.forEach(function (pil) {
     nilaiMerah.innerHTML = r;
     nilaiHijau.innerHTML = g;
     nilaiBiru.innerHTML = b;
+
+    rMerah.setAttribute("value", r);
+    rHijau.setAttribute("value", g);
+    rBiru.setAttribute("value", b);
   });
 });
 
