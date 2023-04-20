@@ -21,10 +21,6 @@ range.forEach(function (pil) {
     nilaiMerah.innerHTML = r;
     nilaiHijau.innerHTML = g;
     nilaiBiru.innerHTML = b;
-
-    rMerah.setAttribute("value", r);
-    rHijau.setAttribute("value", g);
-    rBiru.setAttribute("value", b);
   });
 });
 
@@ -39,10 +35,6 @@ whiteColor.addEventListener("click", function () {
   nilaiMerah.innerHTML = "255";
   nilaiHijau.innerHTML = "255";
   nilaiBiru.innerHTML = "255";
-
-  rMerah.setAttribute("value", "255");
-  rHijau.setAttribute("value", "255");
-  rBiru.setAttribute("value", "255");
 
   return (rMerah.value = "255"), (rHijau.value = "255"), (rBiru.value = "255");
 });
@@ -65,10 +57,6 @@ colorRandom.addEventListener("click", function () {
   nilaiMerah.innerHTML = r;
   nilaiHijau.innerHTML = g;
   nilaiBiru.innerHTML = b;
-
-  rMerah.setAttribute("value", r);
-  rHijau.setAttribute("value", g);
-  rBiru.setAttribute("value", b);
 
   return (rMerah.value = r), (rHijau.value = g), (rBiru.value = b);
 });
