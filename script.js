@@ -48,9 +48,9 @@ colorRandom.appendChild(isiColorRandom);
 whiteColor.after(colorRandom);
 
 colorRandom.addEventListener("click", function () {
-  const r = Math.round(Math.random() * 255 + 0);
-  const g = Math.round(Math.random() * 255 + 0);
-  const b = Math.round(Math.random() * 255 + 0);
+  const r = Math.round(Math.random() * 255);
+  const g = Math.round(Math.random() * 255);
+  const b = Math.round(Math.random() * 255);
 
   document.body.style.backgroundColor = "rgb(" + r + "," + g + "," + b + ")";
 

@@ -90,6 +90,7 @@ button {
   width: 70%;
   height: 40px;
   margin: 70px 0;
+  cursor: pointer;
 }
 
 @keyframes warnaWarni {
