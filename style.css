@@ -4,6 +4,10 @@ html {
   padding: 0;
 }
 
+* {
+  transition: 0.5s;
+}
+
 h1 {
   text-align: center;
   font-size: 60px;
